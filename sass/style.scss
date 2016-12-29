@@ -1,0 +1,30 @@
+//This is the 'main' SCSS file. Mixins, variables, the grid and other important SCSS files are imported to here and then compiled to ../css/style.css.
+
+
+// Variables
+@import 'variables';
+
+// Grid and Modules
+@import 'grid';
+
+// *******************************
+// User Agent styling //
+
+
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0; padding: 0;
+}
+
+
